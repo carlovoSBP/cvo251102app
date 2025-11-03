@@ -1,8 +1,13 @@
+import sys
+
 from cvo251102app import hello
 
 
 def main() -> None:
-    print(hello())
+    if len(sys.argv) > 1:
+        print(hello(someone=sys.argv[1]))
+    else:
+        print(hello())
 
 
 if __name__ == "__main__":
