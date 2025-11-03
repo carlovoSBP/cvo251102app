@@ -4,4 +4,4 @@ Development flow as Paleofuturistic Python
 
 ## Public Functions
 
-::: cvo251102app.hello
+::: cvo251102app.main

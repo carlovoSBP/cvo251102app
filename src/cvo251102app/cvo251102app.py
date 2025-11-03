@@ -1,14 +1,10 @@
-def hello(someone: str = "you") -> str:
-    """Greet someone.
+import sys
 
-    Parameters
-    ----------
-    someone : str, default='you'
-        The name of the person to greet, by default 'you'
+from cvo251102lib import hello
 
-    Returns
-    -------
-    str
-        A greeting message
-    """
-    return f"Hello {someone} from cvo251102app!"
+
+def main() -> None:
+    if len(sys.argv) > 1:
+        print(hello(someone=sys.argv[1]))
+    else:
+        print(hello())

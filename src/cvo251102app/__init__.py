@@ -1,5 +1,5 @@
-from .cvo251102app import hello
+from .cvo251102app import main
 
 __all__ = [
-    "hello",
+    "main",
 ]

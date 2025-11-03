@@ -1,13 +1,15 @@
 [project]
 name = "cvo251102app"
-version = "0.3.0"
+version = "0.4.0"
 description = "Development flow as Paleofuturistic Python"
 readme = "README.md"
 authors = [
     {name = "Paleofuturistic Python", email = "me@here.now"},
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "cvo251102lib>=0.1.0",
+]
 classifiers = [
     # License
     "License :: OSI Approved :: Apache Software License",
@@ -56,4 +58,4 @@ files = ["src/"]
 disallow_untyped_defs = true
 
 [project.scripts]
-cvo251102app = "cvo251102app.__main__:main"
+cvo251102app = "cvo251102app:main"
