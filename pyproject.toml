@@ -1,6 +1,6 @@
 [project]
 name = "cvo251102app"
-version = "0.4.0"
+version = "0.5.0"
 description = "Development flow as Paleofuturistic Python"
 readme = "README.md"
 authors = [
@@ -59,3 +59,4 @@ disallow_untyped_defs = true
 
 [project.scripts]
 cvo251102app = "cvo251102app:main"
+lambda_handler = "cvo251102app:lambda_handler"
