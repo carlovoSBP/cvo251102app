@@ -11,7 +11,7 @@ def main() -> None:
 
 
 def lambda_handler(event: dict, context: object) -> dict:
-    if "someone" in event["queryStringParameters"]:
+    if "queryStringParameters" in event and "someone" in event["queryStringParameters"]:
         print(hello(someone=event["queryStringParameters"]["someone"]))
     else:
         print(hello())
