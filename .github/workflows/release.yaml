@@ -39,4 +39,4 @@ jobs:
         run: uv publish
 
       - name: Publish docs
-        run: uv run mkdocs gh-deploy
+        run: uv run mkdocs gh-deploy --force
