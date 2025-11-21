@@ -24,3 +24,4 @@ runs:
     - name: Sync uv
       if: ${{ inputs.sync-uv == 'true' }}
       run: uv sync --locked --all-extras --dev
+      shell: bash
