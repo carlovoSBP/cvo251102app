@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.7.1](https://github.com/carlovoSBP/cvo251102app/compare/v0.7.0...v0.7.1) (2025-11-21)
+
+
+### Bug Fixes
+
+* lower case everywhere ([#3](https://github.com/carlovoSBP/cvo251102app/issues/3)) ([3ccc11f](https://github.com/carlovoSBP/cvo251102app/commit/3ccc11fe9379f37593252766e43f5938ca6d84f4))
+
 ## [0.7.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.6.0...v0.7.0) (2025-11-21)
 
 
