@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.7.1...v0.8.0) (2025-11-21)
+
+
+### Features
+
+* fully automate publishing ([7e76ecd](https://github.com/carlovoSBP/cvo251102app/commit/7e76ecd5eb7e110e8f964e552f389a67d5077d84))
+
 ## [0.7.1](https://github.com/carlovoSBP/cvo251102app/compare/v0.7.0...v0.7.1) (2025-11-21)
 
 
