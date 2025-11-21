@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.10.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.9.0...v0.10.0) (2025-11-21)
+
+
+### Features
+
+* centralize common cicd ([93fae05](https://github.com/carlovoSBP/cvo251102app/commit/93fae05c20c4f2855b1a8a70581aaa831745a47c))
+
+
+### Bug Fixes
+
+* correct central action path ([5013479](https://github.com/carlovoSBP/cvo251102app/commit/5013479d6e3dc61a95f1e6552479f68c15794d8f))
+* correct central action reference ([76d2660](https://github.com/carlovoSBP/cvo251102app/commit/76d26605b3374db0a04399034aac5f70f1cf2f5f))
+
 ## [0.9.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.8.1...v0.9.0) (2025-11-21)
 
 
