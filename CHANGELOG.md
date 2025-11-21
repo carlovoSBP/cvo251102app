@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.1](https://github.com/carlovoSBP/cvo251102app/compare/v0.8.0...v0.8.1) (2025-11-21)
+
+
+### Bug Fixes
+
+* force docs update on release publish ([d153bdb](https://github.com/carlovoSBP/cvo251102app/commit/d153bdb34f6aa5f4136d49af48133adb0993c0c1))
+
 ## [0.8.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.7.1...v0.8.0) (2025-11-21)
 
 
