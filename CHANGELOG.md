@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.11.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.10.0...v0.11.0) (2025-11-21)
+
+
+### Features
+
+* centralize uv sync in cicd ([708b2b1](https://github.com/carlovoSBP/cvo251102app/commit/708b2b1ec2f2842f6f1e9dc8ff08e73b6ce5be08))
+
+
+### Bug Fixes
+
+* add shell in composite actions explicitly ([8caf600](https://github.com/carlovoSBP/cvo251102app/commit/8caf60047bdfe59ef69208feb6651d4d8a7d9e29))
+
 ## [0.10.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.9.0...v0.10.0) (2025-11-21)
 
 
