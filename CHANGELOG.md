@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.9.0](https://github.com/carlovoSBP/cvo251102app/compare/v0.8.1...v0.9.0) (2025-11-21)
+
+
+### Features
+
+* separate publishing flows ([374d511](https://github.com/carlovoSBP/cvo251102app/commit/374d5115953dfc0862a805d11380e832796a64e2))
+
 ## [0.8.1](https://github.com/carlovoSBP/cvo251102app/compare/v0.8.0...v0.8.1) (2025-11-21)
 
 

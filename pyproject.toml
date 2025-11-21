@@ -1,6 +1,6 @@
 [project]
 name = "cvo251102app"
-version = "0.8.1"
+version = "0.9.0"
 description = "Development flow as Paleofuturistic Python"
 readme = "README.md"
 authors = [
