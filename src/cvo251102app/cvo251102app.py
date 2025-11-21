@@ -16,4 +16,4 @@ def lambda_handler(event: dict, context: object) -> dict:
     else:
         print(hello())
 
-    return {"message": "Success!!!"}
+    return {"message": "success"}
