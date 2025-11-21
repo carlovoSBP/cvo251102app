@@ -19,9 +19,7 @@ jobs:
         uses: ./.github/actions/setup-env
         with:
           enable-uv-cache: true
-
-      - name: Install project
-        run: uv sync --locked --all-extras --dev
+          sync-uv: true
 
       - name: Format code
         run: uv run ruff format --diff

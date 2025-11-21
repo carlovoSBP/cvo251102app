@@ -3,6 +3,9 @@ inputs:
   enable-uv-cache:
     required: false
     default: false
+  sync-uv:
+    required: false
+    default: false
 runs:
   using: composite
   steps:
@@ -17,3 +20,7 @@ runs:
         version: 0.9.5
         enable-cache: ${{ inputs.enable-uv-cache }}
         cache-dependency-glob: uv.lock
+
+    - name: Sync uv
+      if: ${{ inputs.sync-uv == 'true' }}
+      run: uv sync --locked --all-extras --dev

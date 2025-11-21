@@ -22,6 +22,7 @@ jobs:
         uses: ./.github/actions/setup-env
         with:
           enable-uv-cache: false # No caching to ensure correct dependencies for publishing
+          sync-uv: false
 
       - name: Build package
         run: uv build
